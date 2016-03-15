@@ -3063,7 +3063,7 @@ figure {
 
 /* Portfolio hover */
 figure.effect-goliath {
-  background: #E84855; }
+  background: #000; }
   figure.effect-goliath .popup-call {
     position: absolute;
     top: 30px;
@@ -3574,3 +3574,9 @@ a.gm-toggle-link {
     height: 80px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/*Logo*/
+.logo{
+    width: 60px;
+    height: auto;
+}
