@@ -52,10 +52,10 @@ Media Query
 [2. Blocks]
 */
 .e-block {
-  padding: 130px 0 130px 0; }
+  padding: 50px 0 50px 0; }
 
 .e-block-ins {
-  padding: 100px 0 100px 0; }
+  padding: 50px 0 50px 0; }
 
 .e-block-null {
   margin: 0;
@@ -494,7 +494,7 @@ hr {
 
 /* Content */
 #content {
-  min-height: 600px; }
+  min-height: 400px; }
 
 #back-top a {
   background: #181818 url(../images/back_top.png) no-repeat 50% 50%;
@@ -3157,7 +3157,7 @@ figure.effect-goliath {
   figure.effect-goliath:hover .popup-call {
     opacity: 1; }
   figure.effect-goliath:hover img {
-    opacity: 0.1;
+    //opacity: 0.1;
     -webkit-transform: translate3d(0, 0, 0) scale(1);
     transform: translate3d(0, 0, 0) scale(1); }
   figure.effect-goliath:hover h3 {
