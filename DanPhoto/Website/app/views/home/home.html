@@ -114,9 +114,20 @@
 </div>
 <!-- /Revolution Slider -->
 
+<br/>
+<br/>
+<br/>
 
 <div id="content">
 
+    <section>
+        <div class="container text-center">
+            <iframe src="https://player.vimeo.com/video/166025473?autoplay=1&loop=1" width="900" height="600" frameborder="0" webkitallowfullscreen
+            mozallowfullscreen allowfullscreen></iframe>
+            <p><a href="https://vimeo.com/166025473">A NIGHT OF LIGHTS - Roar Films</a> from <a href="https://vimeo.com/user42880708">Daniel Carvalho</a>                on <a href="https://vimeo.com">Vimeo</a>.</p>
+            <p></p>
+        </div>
+    </section>
 
     <!-- Details Block -->
     <section id="details" class="m-details e-block e-block-dark" data-stellar-background-ratio="0.5">
@@ -149,22 +160,20 @@
                 <h3 class="font-accident-one-bold uppercase white">COMECE O SEU SONHO AQUI</h3>
                 <h5 class="font-accident-one-bold title uppercase hovercolor">VOCÊ PODE COMEÇAR DIZENDO OLÁ</h5>
                 <div class="dividewhite4"></div>
-            </div>
+            </div> 
 
             <div class="col-md-2"></div>
             <div class="col-md-8 e-centered">
                 <div class="dividewhite2"></div>
-                <form action="#!" class="wpcf7-form">
+                <form action="formOrcamento.php" name="form_contato" method="post" class="wpcf7-form">
                     <p>
-                        <span class="wpcf7-form-control-wrap"><input type="text" size="40" class="" placeholder="Nome "></span>
-                        <span class="wpcf7-form-control-wrap"><input type="email" size="40" class="" placeholder="E-mail"></span>
-                        <span class="wpcf7-form-control-wrap"><input type="text" size="40" class="fullwidth-field" placeholder="Tipo de Evento"></span>
-                        <span class="wpcf7-form-control-wrap"><textarea name="Message" cols="40" rows="6" class="fullwidth-field" placeholder="Mensagem"></textarea></span>
+                        <span class="wpcf7-form-control-wrap"><input type="text" name ="nome" size="40" class="" placeholder="Nome "></span>
+                        <span class="wpcf7-form-control-wrap"><input type="email" name ="email" size="40" class="" placeholder="E-mail"></span>
+                        <span class="wpcf7-form-control-wrap"><input type="text" name="tipoevento" size="40" class="fullwidth-field" placeholder="Tipo de Evento"></span>
+                        <span class="wpcf7-form-control-wrap"><textarea name="mensagem" cols="40" rows="6" class="fullwidth-field" placeholder="Mensagem"></textarea></span>
                         <br>
                         <br>
                         <input type="submit" value="Enviar Orçamento" class="btn btn-lg btn-wh-str">
-                        <a hidden href="mailto:nicolas.ale.carvalho@gmail.com?cc=nicolas.ale.carvalho@gmail.com&subject=Assunto do email&amp;body=Olá,%0D%0A%0D%0A[corpo do email]%0D%0A%0D%0AAtenciosamente,%0D%0A[nome do usuário]">Envie seu email!</a>
-                        <a hidden href="mailto:nicolas.ale.carvalho@gmail.com?subject=hello world">Email Me!</a>
                     </p>
                 </form>
             </div>

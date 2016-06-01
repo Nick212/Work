@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Baccio</title>
+
+
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="app/assets/css/small.css">
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="app/assets/css/style.css">
+    <!--<link rel="stylesheet" media="screen and (min-width: 1000px)" href="app/assets/css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width: 1350px)" href="app/assets/css/large.css">-->
+    <link rel="stylesheet" media="screen and (min-width: 0px)" href="app/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+</head>
+
+<body ng-app="Baccio">
+
+    <header>
+        <section class="container">
+            <div class="logo">
+                <img src="app/assets/img/logo.png" alt="">
+            </div>
+
+            <div class="menu-mobile">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="menu-mobile-logo" href="#/">
+                                <img class="menu-mobile-logo" src="app/assets/img/logo.png" alt="">
+                            </a>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav right">
+                                <a href="#/">
+                                    <li class="active"><span class="glyphicon glyphicon-home"></span>
+                                        Baccio</li>
+                                </a>
+                                <a href="#/produtos">
+                                    <li>
+                                        <sapn class="glyphicon glyphicon-glass"></sapn>
+                                        Produtos</li>
+                                </a>
+                                <a href="#/empresa">
+                                    <li><span class="glyphicon glyphicon-tower"></span>
+                                        Empresa</li>
+                                </a>
+                                <a href="#/receitas">
+                                    <li><span class="glyphicon glyphicon-tower"></span>
+                                        Receitas</li>
+                                </a>
+                                <a href="#/representantes">
+                                    <li><span class="glyphicon glyphicon-user"></span>
+                                        Representantes</li>
+                                </a>
+                                <a href="#/contato">
+                                    <li><span class="glyphicon glyphicon-headphones"></span>
+                                        Contato</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+
+            </div>
+
+
+            <div class="menu">
+                <ul>
+                    <a href="#/">
+                        <li class="active"><span class="glyphicon glyphicon-home"></span>
+                            <br> Baccio</li>
+                    </a>
+                    <a href="#/produtos">
+                        <li>
+                            <sapn class="glyphicon glyphicon-glass"></sapn>
+                            <br>Produtos</li>
+                    </a>
+                    <a href="#/empresa">
+                        <li><span class="glyphicon glyphicon-tower"></span>
+                            <br> Empresa</li>
+                    </a>
+                    <a href="#/receitas">
+                        <li><span class="glyphicon glyphicon-tower"></span>
+                            <br> Receitas</li>
+                    </a>
+                    <a href="#/representantes">
+                        <li><span class="glyphicon glyphicon-user"></span>
+                            <br> Representantes</li>
+                    </a>
+                    <a href="#/contato">
+                        <li><span class="glyphicon glyphicon-headphones"></span>
+                            <br> Contato</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </header>
+
+    <section>
+        <ng-view></ng-view>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-conteiner">
+            <section class="container">
+                <div class="footer-default">
+                    <div class="footer-block">
+                        <ul>
+                            <li><a href="#/">Produtos</a></li>
+                            <li><a href="#/">X1</a></li>
+                            <li><a href="#/">X1</a></li>
+                            <li><a href="#/">X1</a></li>
+                            <li><a href="#/">X1</a></li>
+                            <li><a href="#/">X1</a></li>
+                            <li><a href="#/">X1</a></li>
+                        </ul>
+                        <!--<table border=0 align=left width=1 height=100 style="float:left;">
+                            <tr>Produtos</tr>
+                            <td>x1</td>
+                            <td>x1</td>
+                            <td>x1</td>
+                            <td>x1</td>
+                            <tr>
+                                <td bgcolor=black></td>
+                            </tr>
+                        </table>-->
+                    </div>
+                    <div class="footer-block">
+                        <ul>
+                            <li><a href="#/">Empresa</a></li>
+                            <li><a href="#/">X2</a></li>
+                            <li><a href="#/">X2</a></li>
+                            <li><a href="#/">X2</a></li>
+                            <li><a href="#/">X2</a></li>
+                            <li><a href="#/">X2</a></li>
+                            <li><a href="#/">X2</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-block">
+                        <ul>
+                            <li><a href="#/">Receitas</a></li>
+                            <li><a href="#/">X3</a></li>
+                            <li><a href="#/">X3</a></li>
+                            <li><a href="#/">X3</a></li>
+                            <li><a href="#/">X3</a></li>
+                            <li><a href="#/">X3</a></li>
+                            <li><a href="#/">X3</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-block-logo-footer">
+                        <img class="logo-footer" src="app/assets/img/logo.png" alt="">
+                        <article>
+                            <b>INDÚSTRIA E COMÉCIO DE
+                            <br/> SORVETES SGRECIA LTDA.</b>
+                            <small><br/> Rua Vol. Benetido Lourenço
+                            <br/> Bueno, 270
+                            <br/> Jardim Recreio - Bragança
+                            <br/> Paulista/SP</small>
+                        </article>
+                        <div class="footer-sac">
+                            <b>SAC: (11) 4033-3940</b>
+                            <br/> De segunda a sexta das 8h às 18h.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="container">
+            <div class="footer-description">
+                <div class="year-edition">
+                    <label for="company-developement">@ 2016 Baccio Sorvetes todos os direitos reservados</label>
+                </div>
+                <div class="company-developement">
+                    <label for="company-developement">Desenvolvido por <a href=""><i>Amplia Comunicações</i></a></label>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!--IMPORT BOOTSTRAP-JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="app/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--IMPORT ANGULAR-->
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+
+    <!--IMPORT CONTROLLER-->
+    <script src="app/inicializacao.js"></script>
+    <script src="app/controllers/homeController.js"></script>
+    <script src="app/controllers/produtosController.js"></script>
+    <script src="app/controllers/empresaController.js"></script>
+    <script src="app/controllers/receitasController.js"></script>
+    <script src="app/controllers/contatoController.js"></script>
+    <script src="app/controllers/representantesController.js"></script>
+
+</body>
+
+</html>

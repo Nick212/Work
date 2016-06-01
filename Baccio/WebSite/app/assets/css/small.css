@@ -1,0 +1,236 @@
+/*
+Autor: Nicolas Carvalho
+Designer / Developer Web
+Company: Baccio 
+*/
+/*RESET ELEMENTS*/
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+.logo{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+/*END RESET ELEMENTS*/
+
+/*START MENU*/
+
+.navbar-header{
+    background: orange;
+}
+
+.propaganda-banner{
+    width: 100%;
+    height: auto;
+    float: auto;
+}
+.propaganda-banner b{
+    font-size: 40px;    
+    color: #5C3317;
+}
+
+.propaganda-banner button{
+    background: orange;
+    width: 100%;
+    height: 45px;
+    border: 1px solid orange;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.menu-mobile-logo{
+    width: 90px;
+    height: auto;
+}
+
+.menu-mobile{
+    display: block;
+}
+
+.menu-mobile a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-mobile a:hover{
+     color: #404040;
+}
+
+.menu-mobile li{
+    padding: 15px 0 15px 0;
+    background: orange;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    float: right;
+    list-style-type: none;    
+    margin-right: 1px;
+    border-bottom: 1px solid white;
+}
+
+/*END MENU*/
+
+/*START HOME-BACCIO*/
+.banner-rotativo{
+    width: 100%;
+    float: auto;
+}
+
+.banner-rotativo img{
+    width: 100%;
+}
+
+.title-sidebar-botton{
+    text-align: center;
+}
+
+.nav-bar-option-nutrients{
+    margin-top: 70px;
+    width: 100%;
+    height: 300px;
+}
+.nutricao{
+    width: 100%;
+    height: auto;
+}
+
+.menu-nutricao{
+    width: 100%;
+    height: 67px;
+}
+
+.menu-nutricao li{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 15px 0 10px 10px;
+    margin: 0 3px 0 0;
+    list-style-type: none;
+    float: left;
+    background: orange;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu-nutricao a li{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-nutricao .active{
+    background: #5C3317;
+}
+
+.menu-nutricao-description{
+    width: 100%;
+    height: 200px;
+    background: #5C3317;
+    padding: 0 0 20px 0;
+    margin: 0 0 50px 0;
+}
+
+.menu-nutricao-description img{
+    float: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.menu-nutricao-description article{
+    text-align: justify;
+    color: whitesmoke;
+    padding: 5px;
+    background: #5C3317;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*END HOME-BACCIO*/
+
+
+/*START FOOTER*/
+.footer-conteiner{
+    background: orange;
+    margin-top: 30px;
+}
+
+.footer-default{
+    width: 100%;
+    height: 150px;
+    background: orange;
+    margin: 20px 0 20px 0;
+}
+
+.footer-block{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.footer-block a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-block li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-description{
+    height: 40px;
+    background: white;
+    color: black;
+    padding : 15px 0 0px 0;
+    
+}
+
+.footer-description .year-edition{
+    width: 850px;
+    float: left;
+    text-align: left; 
+}
+
+.footer-description .campany-developement{
+    width: 400px;
+    float: right;
+    text-align: right;
+    padding-right: 0;
+}
+
+.footer-block-logo-footer{
+    width: 350px;
+    height: 100%;
+    float: right;
+}
+
+.footer-block-logo-footer article{
+    padding-left: 0px;
+    float: right;
+    text-align: left;
+    color: white;
+}
+
+.logo-footer{
+    width: 150px;
+    height: auto;
+}
+
+.footer-sac{
+    text-align: left;
+    float: left;
+    color: white;
+}
+
+/*FINISH FOOTER*/
